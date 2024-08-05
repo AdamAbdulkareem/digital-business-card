@@ -1,0 +1,48 @@
+.header{
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.headerBackground{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.profileImage{
+    position: absolute;
+    max-width: 33%;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: .05rem .05rem 1.8rem black;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%); */
+}
+.profileDetails p{
+    text-align: center;
+}
+.profileTitle{
+    text-align: center;
+    margin-top: 4.5rem;
+    line-height: .5px;
+
+}
+.profileTitle h4{
+    font-size: 1.5rem;
+}
+.profileTitle p{
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.profileParagraph{
+    padding-top: 5px;
+    padding-inline: 30px;
+    margin-top: 25px;
+}

@@ -1,0 +1,8 @@
+.section{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    padding-inline: 65px;
+    margin-right: 14.5rem;
+    margin-top: 1rem;
+}
