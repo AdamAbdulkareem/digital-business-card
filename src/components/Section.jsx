@@ -5,11 +5,32 @@ import "./Section.css"
 export default function Section(){
     return (
         <>
-        <section className="section">
-            <div><span><a href=""></a> <img src="" alt="location" /><p>Lagos,Nigeria</p></span></div>
-            <div><span> <a href=""></a><img src="" alt="email" /><p>dmabdulkareem@gmail.com</p></span></div>
-            <div><span> <a href=""><img src="" alt="telephone" /><p>+2348089406051</p></a> </span></div>
-        </section>
+            <div className="sectionContent">
+                <div>
+                    <span>
+                        <a href="">
+                            <img src="src\assets\location.svg" alt="location" />
+                            <p>Lagos, Nigeria</p>
+                        </a>
+                    </span>
+                </div>
+                <div>
+                    <span> 
+                        <a href="">
+                            <img src="src\assets\email.svg" alt="email" />
+                            <p>dmabdulkareem@gmail.com</p>
+                        </a>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <a href="">
+                            <img src="src\assets\phone.svg" alt="telephone" />
+                            <p>+2348089406051</p>
+                        </a>
+                    </span>
+                </div>
+            </div>
         </>
     )
 }

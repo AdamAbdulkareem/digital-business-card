@@ -17,14 +17,54 @@
     border-radius: 50%;
     z-index: 1;
     box-shadow: .05rem .05rem 1.8rem black;
-    bottom: 50%;
+    bottom: 60%;
     left: 50%;
     transform: translateX(-50%);
-    /* -webkit-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
-    -o-transform: translateX(-50%); */
+    -o-transform: translateX(-50%);
 }
+@media screen and (min-width: 360px){
+    .profileImage{
+        position: absolute;
+        max-width: 33%;
+        border-radius: 50%;
+        z-index: 1;
+        box-shadow: .05rem .05rem 1.8rem black;
+        bottom: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+}
+/* @media screen and (max-width: 410px){
+    .profileImage{
+        position: absolute;
+        max-width: 33%;
+        border-radius: 50%;
+        z-index: 1;
+        box-shadow: .05rem .05rem 1.8rem black;
+        bottom: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+} */
+/* @media screen and (max-width: 596px){
+    .profileImage{
+        position: absolute;
+        max-width: 33%;
+        border-radius: 50%;
+        z-index: 1;
+        box-shadow: .05rem .05rem 1.8rem black;
+        bottom: 43%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+} */
 .profileDetails p{
     text-align: center;
 }
@@ -38,11 +78,59 @@
     font-size: 1.5rem;
 }
 .profileTitle p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 .profileParagraph{
+    font-size: .8rem;
     padding-top: 5px;
     padding-inline: 30px;
     margin-top: 25px;
+}
+@media screen and (min-width: 597px){
+    .header{
+        display: block;
+        position: relative;
+        width: 100%;
+    }
+    .headerBackground{
+        width: 100%;
+        height: auto;
+        z-index: -1;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .profileImage{
+        position: absolute;
+        max-width: 33%;
+        border-radius: 50%;
+        z-index: 1;
+        box-shadow: .05rem .05rem 1.8rem black;
+        bottom: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+}
+    .profileDetails p{
+        text-align: center;
+    }
+    .profileTitle{
+        text-align: center;
+        margin-top: 4.5rem;
+        line-height: .5px;
+    
+    }
+    .profileTitle h4{
+        font-size: 1.5rem;
+    }
+    .profileTitle p{
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+    .profileParagraph{
+        font-size: 1rem;
+        padding-top: 5px;
+        padding-inline: 30px;
+        margin-top: 25px;
+    }
 }
