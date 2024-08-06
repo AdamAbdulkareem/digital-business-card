@@ -9,7 +9,7 @@ export default function Section(){
                 <div>
                     <span>
                         <a href="">
-                            <img src="src\assets\location.svg" alt="location" />
+                            <img src="./src/assets/location.svg" alt="location" />
                             <p>Lagos, Nigeria</p>
                         </a>
                     </span>
@@ -17,7 +17,7 @@ export default function Section(){
                 <div>
                     <span> 
                         <a href="">
-                            <img src="src\assets\email.svg" alt="email" />
+                            <img src="./src/assets/email.svg" alt="email" />
                             <p>dmabdulkareem@gmail.com</p>
                         </a>
                     </span>
@@ -25,7 +25,7 @@ export default function Section(){
                 <div>
                     <span>
                         <a href="">
-                            <img src="src\assets\phone.svg" alt="telephone" />
+                            <img src="./src/assets/phone.svg" alt="telephone" />
                             <p>+2348089406051</p>
                         </a>
                     </span>
