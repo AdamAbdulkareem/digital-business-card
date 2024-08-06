@@ -8,8 +8,8 @@ export default function Header() {
     <>
     <header className="header">
     <div>
-            <img className="headerBackground" src="src\assets\bg-1280x704.png" alt="background image"/>
-            <span> <img className="profileImage" src="src\assets\abdulkareem.jpeg" alt="profile picture"/> </span>
+            <img className="headerBackground" src="./src/assets/bg-1280x704.png" alt="background image"/>
+            <span> <img className="profileImage" src="./src/assets/abdulkareem.jpeg" alt="profile picture"/> </span>
         </div>
         <div className="profileDetails">
             <div className="profileTitle">
